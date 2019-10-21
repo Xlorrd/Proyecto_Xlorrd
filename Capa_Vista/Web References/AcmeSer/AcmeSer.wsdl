@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaCapacitacion">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaCapacitacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaCapacitacionResult" type="tns:ArrayOfMostrarCapacitacionResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarCapacitacionResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarCapacitacionResult" nillable="true" type="tns:mostrarCapacitacionResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarCapacitacionResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="fechaIni" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="fechaFin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombres" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ObtenerCapacitacionid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerCapacitacionidResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerCapacitacionidResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarCapacitacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaIni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaFin" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpleado" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarCapacitacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarCapacitacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarCapacitacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarCapacitacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarCapacitacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarCapacitacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idCapacitacion" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaIni" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fechaFin" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpleado" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarCapacitacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarCapacitacionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaCargo">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaCargoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaCargoResult" type="tns:ArrayOfMostrarCargoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarCargoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarCargoResult" nillable="true" type="tns:mostrarCargoResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarCargoResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idCargo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AgregarCargo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarCargoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarCargoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarCargo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarCargoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarCargoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarCargo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idCargo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarCargoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarCargoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaDepartamento">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaDepartamentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaDepartamentoResult" type="tns:ArrayOfMostrarDepartamentoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarDepartamentoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarDepartamentoResult" nillable="true" type="tns:mostrarDepartamentoResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarDepartamentoResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idDepartamento" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AgregarDepartamento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarDepartamentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarDepartamentoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarDepartamento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarDepartamentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarDepartamentoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarDepartamento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idDepartamento" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="descripcion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarDepartamentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarDepartamentoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ListaDtsFamilia">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaDtsFamiliaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaDtsFamiliaResult" type="tns:ArrayOfMostrarDtosFamiliaResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarDtosFamiliaResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarDtosFamiliaResult" nillable="true" type="tns:mostrarDtosFamiliaResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarDtosFamiliaResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="idDtosFamilia" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombrePaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombreMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="telefono" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="idEmpleado" nillable="true" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AgregarDtsFamilia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombrePaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombreMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="telefono" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="idEmpleado" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarDtsFamiliaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarDtsFamiliaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarDtsFamilia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarDtsFamiliaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarDtsFamiliaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarDtsFamilia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idDtosFamilia" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombrePaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombreMaterno" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="telefono" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="idEmpleado" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarDtsFamiliaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarDtsFamiliaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerEmpleado">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObtenerEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerEmpleadoResult" type="tns:ArrayOfMostrarEmpleadoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarEmpleadoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarEmpleadoResult" nillable="true" type="tns:mostrarEmpleadoResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarEmpleadoResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="cedula" nillable="true" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="telefono" nillable="true" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="contra" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Departamento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cargo" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaEmpleado">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaEmpleadoResult" type="tns:ArrayOfMostrarEmpleadoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cedula" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="telefono" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="contra" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDepartamento" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="idCargo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarEmpleadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarEmpleadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarEmpleado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpleado" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="correo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="cedula" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="telefono" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="contra" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDepartamento" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="idCargo" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarEmpleadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarEmpleadoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerEmpresa">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObtenerEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerEmpresaResult" type="tns:ArrayOfMostrarEmpresaResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarEmpresaResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarEmpresaResult" nillable="true" type="tns:mostrarEmpresaResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarEmpresaResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Departamento" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaEmpresa">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaEmpresaResult" type="tns:ArrayOfMostrarEmpresaResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarEmpresa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDepartamento" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarEmpresaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarEmpresa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarEmpresaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarEmpresa">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpresa" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="direccion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idDepartamento" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarEmpresaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarEmpresaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ObtenerReferencia">
+        <s:complexType />
+      </s:element>
+      <s:element name="ObtenerReferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ObtenerReferenciaResult" type="tns:ArrayOfMostrarReferenciaResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfMostrarReferenciaResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="mostrarReferenciaResult" nillable="true" type="tns:mostrarReferenciaResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="mostrarReferenciaResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="tipoReferencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="nombres1" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ListaReferencia">
+        <s:complexType />
+      </s:element>
+      <s:element name="ListaReferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ListaReferenciaResult" type="tns:ArrayOfMostrarReferenciaResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarReferencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="telefono" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipoReferencia" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpleado" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AgregarReferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AgregarReferenciaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarReferencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminarReferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EliminarReferenciaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarReferencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="idReferencia" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="nombres" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="telefono" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="tipoReferencia" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="idEmpleado" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EditarReferenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EditarReferenciaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaCapacitacionSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaCapacitacion" />
+  </wsdl:message>
+  <wsdl:message name="ListaCapacitacionSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaCapacitacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerCapacitacionidSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerCapacitacionid" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerCapacitacionidSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerCapacitacionidResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarCapacitacionSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarCapacitacion" />
+  </wsdl:message>
+  <wsdl:message name="AgregarCapacitacionSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarCapacitacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarCapacitacionSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarCapacitacion" />
+  </wsdl:message>
+  <wsdl:message name="EliminarCapacitacionSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarCapacitacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarCapacitacionSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarCapacitacion" />
+  </wsdl:message>
+  <wsdl:message name="EditarCapacitacionSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarCapacitacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaCargoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaCargo" />
+  </wsdl:message>
+  <wsdl:message name="ListaCargoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarCargoSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarCargo" />
+  </wsdl:message>
+  <wsdl:message name="AgregarCargoSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarCargoSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarCargo" />
+  </wsdl:message>
+  <wsdl:message name="EliminarCargoSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarCargoSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarCargo" />
+  </wsdl:message>
+  <wsdl:message name="EditarCargoSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarCargoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaDepartamentoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaDepartamento" />
+  </wsdl:message>
+  <wsdl:message name="ListaDepartamentoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaDepartamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarDepartamentoSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarDepartamento" />
+  </wsdl:message>
+  <wsdl:message name="AgregarDepartamentoSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarDepartamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarDepartamentoSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarDepartamento" />
+  </wsdl:message>
+  <wsdl:message name="EliminarDepartamentoSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarDepartamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarDepartamentoSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarDepartamento" />
+  </wsdl:message>
+  <wsdl:message name="EditarDepartamentoSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarDepartamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaDtsFamiliaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaDtsFamilia" />
+  </wsdl:message>
+  <wsdl:message name="ListaDtsFamiliaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaDtsFamiliaResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarDtsFamiliaSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarDtsFamilia" />
+  </wsdl:message>
+  <wsdl:message name="AgregarDtsFamiliaSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarDtsFamiliaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarDtsFamiliaSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarDtsFamilia" />
+  </wsdl:message>
+  <wsdl:message name="EliminarDtsFamiliaSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarDtsFamiliaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarDtsFamiliaSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarDtsFamilia" />
+  </wsdl:message>
+  <wsdl:message name="EditarDtsFamiliaSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarDtsFamiliaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="ListaEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="AgregarEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="EliminarEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarEmpleadoSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarEmpleado" />
+  </wsdl:message>
+  <wsdl:message name="EditarEmpleadoSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarEmpleadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="ListaEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="AgregarEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="EliminarEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarEmpresaSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarEmpresa" />
+  </wsdl:message>
+  <wsdl:message name="EditarEmpresaSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarEmpresaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerReferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:ObtenerReferencia" />
+  </wsdl:message>
+  <wsdl:message name="ObtenerReferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:ObtenerReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ListaReferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:ListaReferencia" />
+  </wsdl:message>
+  <wsdl:message name="ListaReferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:ListaReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="AgregarReferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:AgregarReferencia" />
+  </wsdl:message>
+  <wsdl:message name="AgregarReferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:AgregarReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminarReferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminarReferencia" />
+  </wsdl:message>
+  <wsdl:message name="EliminarReferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminarReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EditarReferenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:EditarReferencia" />
+  </wsdl:message>
+  <wsdl:message name="EditarReferenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:EditarReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AcmeSerSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaCapacitacion">
+      <wsdl:input message="tns:ListaCapacitacionSoapIn" />
+      <wsdl:output message="tns:ListaCapacitacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCapacitacionid">
+      <wsdl:input message="tns:ObtenerCapacitacionidSoapIn" />
+      <wsdl:output message="tns:ObtenerCapacitacionidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCapacitacion">
+      <wsdl:input message="tns:AgregarCapacitacionSoapIn" />
+      <wsdl:output message="tns:AgregarCapacitacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCapacitacion">
+      <wsdl:input message="tns:EliminarCapacitacionSoapIn" />
+      <wsdl:output message="tns:EliminarCapacitacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarCapacitacion">
+      <wsdl:input message="tns:EditarCapacitacionSoapIn" />
+      <wsdl:output message="tns:EditarCapacitacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaCargo">
+      <wsdl:input message="tns:ListaCargoSoapIn" />
+      <wsdl:output message="tns:ListaCargoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCargo">
+      <wsdl:input message="tns:AgregarCargoSoapIn" />
+      <wsdl:output message="tns:AgregarCargoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCargo">
+      <wsdl:input message="tns:EliminarCargoSoapIn" />
+      <wsdl:output message="tns:EliminarCargoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarCargo">
+      <wsdl:input message="tns:EditarCargoSoapIn" />
+      <wsdl:output message="tns:EditarCargoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamento">
+      <wsdl:input message="tns:ListaDepartamentoSoapIn" />
+      <wsdl:output message="tns:ListaDepartamentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarDepartamento">
+      <wsdl:input message="tns:AgregarDepartamentoSoapIn" />
+      <wsdl:output message="tns:AgregarDepartamentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDepartamento">
+      <wsdl:input message="tns:EliminarDepartamentoSoapIn" />
+      <wsdl:output message="tns:EliminarDepartamentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarDepartamento">
+      <wsdl:input message="tns:EditarDepartamentoSoapIn" />
+      <wsdl:output message="tns:EditarDepartamentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaDtsFamilia">
+      <wsdl:input message="tns:ListaDtsFamiliaSoapIn" />
+      <wsdl:output message="tns:ListaDtsFamiliaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarDtsFamilia">
+      <wsdl:input message="tns:AgregarDtsFamiliaSoapIn" />
+      <wsdl:output message="tns:AgregarDtsFamiliaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDtsFamilia">
+      <wsdl:input message="tns:EliminarDtsFamiliaSoapIn" />
+      <wsdl:output message="tns:EliminarDtsFamiliaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarDtsFamilia">
+      <wsdl:input message="tns:EditarDtsFamiliaSoapIn" />
+      <wsdl:output message="tns:EditarDtsFamiliaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpleado">
+      <wsdl:input message="tns:ObtenerEmpleadoSoapIn" />
+      <wsdl:output message="tns:ObtenerEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaEmpleado">
+      <wsdl:input message="tns:ListaEmpleadoSoapIn" />
+      <wsdl:output message="tns:ListaEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarEmpleado">
+      <wsdl:input message="tns:AgregarEmpleadoSoapIn" />
+      <wsdl:output message="tns:AgregarEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpleado">
+      <wsdl:input message="tns:EliminarEmpleadoSoapIn" />
+      <wsdl:output message="tns:EliminarEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarEmpleado">
+      <wsdl:input message="tns:EditarEmpleadoSoapIn" />
+      <wsdl:output message="tns:EditarEmpleadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpresa">
+      <wsdl:input message="tns:ObtenerEmpresaSoapIn" />
+      <wsdl:output message="tns:ObtenerEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaEmpresa">
+      <wsdl:input message="tns:ListaEmpresaSoapIn" />
+      <wsdl:output message="tns:ListaEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarEmpresa">
+      <wsdl:input message="tns:AgregarEmpresaSoapIn" />
+      <wsdl:output message="tns:AgregarEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpresa">
+      <wsdl:input message="tns:EliminarEmpresaSoapIn" />
+      <wsdl:output message="tns:EliminarEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarEmpresa">
+      <wsdl:input message="tns:EditarEmpresaSoapIn" />
+      <wsdl:output message="tns:EditarEmpresaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReferencia">
+      <wsdl:input message="tns:ObtenerReferenciaSoapIn" />
+      <wsdl:output message="tns:ObtenerReferenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ListaReferencia">
+      <wsdl:input message="tns:ListaReferenciaSoapIn" />
+      <wsdl:output message="tns:ListaReferenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarReferencia">
+      <wsdl:input message="tns:AgregarReferenciaSoapIn" />
+      <wsdl:output message="tns:AgregarReferenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReferencia">
+      <wsdl:input message="tns:EliminarReferenciaSoapIn" />
+      <wsdl:output message="tns:EliminarReferenciaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarReferencia">
+      <wsdl:input message="tns:EditarReferenciaSoapIn" />
+      <wsdl:output message="tns:EditarReferenciaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AcmeSerSoap" type="tns:AcmeSerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCapacitacion">
+      <soap:operation soapAction="http://tempuri.org/ListaCapacitacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCapacitacionid">
+      <soap:operation soapAction="http://tempuri.org/ObtenerCapacitacionid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCapacitacion">
+      <soap:operation soapAction="http://tempuri.org/AgregarCapacitacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCapacitacion">
+      <soap:operation soapAction="http://tempuri.org/EliminarCapacitacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarCapacitacion">
+      <soap:operation soapAction="http://tempuri.org/EditarCapacitacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCargo">
+      <soap:operation soapAction="http://tempuri.org/ListaCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCargo">
+      <soap:operation soapAction="http://tempuri.org/AgregarCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCargo">
+      <soap:operation soapAction="http://tempuri.org/EliminarCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarCargo">
+      <soap:operation soapAction="http://tempuri.org/EditarCargo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamento">
+      <soap:operation soapAction="http://tempuri.org/ListaDepartamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarDepartamento">
+      <soap:operation soapAction="http://tempuri.org/AgregarDepartamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDepartamento">
+      <soap:operation soapAction="http://tempuri.org/EliminarDepartamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarDepartamento">
+      <soap:operation soapAction="http://tempuri.org/EditarDepartamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDtsFamilia">
+      <soap:operation soapAction="http://tempuri.org/ListaDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarDtsFamilia">
+      <soap:operation soapAction="http://tempuri.org/AgregarDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDtsFamilia">
+      <soap:operation soapAction="http://tempuri.org/EliminarDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarDtsFamilia">
+      <soap:operation soapAction="http://tempuri.org/EditarDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpleado">
+      <soap:operation soapAction="http://tempuri.org/ObtenerEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEmpleado">
+      <soap:operation soapAction="http://tempuri.org/ListaEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarEmpleado">
+      <soap:operation soapAction="http://tempuri.org/AgregarEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpleado">
+      <soap:operation soapAction="http://tempuri.org/EliminarEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarEmpleado">
+      <soap:operation soapAction="http://tempuri.org/EditarEmpleado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpresa">
+      <soap:operation soapAction="http://tempuri.org/ObtenerEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEmpresa">
+      <soap:operation soapAction="http://tempuri.org/ListaEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarEmpresa">
+      <soap:operation soapAction="http://tempuri.org/AgregarEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpresa">
+      <soap:operation soapAction="http://tempuri.org/EliminarEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarEmpresa">
+      <soap:operation soapAction="http://tempuri.org/EditarEmpresa" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReferencia">
+      <soap:operation soapAction="http://tempuri.org/ObtenerReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaReferencia">
+      <soap:operation soapAction="http://tempuri.org/ListaReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarReferencia">
+      <soap:operation soapAction="http://tempuri.org/AgregarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReferencia">
+      <soap:operation soapAction="http://tempuri.org/EliminarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarReferencia">
+      <soap:operation soapAction="http://tempuri.org/EditarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AcmeSerSoap12" type="tns:AcmeSerSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCapacitacion">
+      <soap12:operation soapAction="http://tempuri.org/ListaCapacitacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCapacitacionid">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerCapacitacionid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCapacitacion">
+      <soap12:operation soapAction="http://tempuri.org/AgregarCapacitacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCapacitacion">
+      <soap12:operation soapAction="http://tempuri.org/EliminarCapacitacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarCapacitacion">
+      <soap12:operation soapAction="http://tempuri.org/EditarCapacitacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaCargo">
+      <soap12:operation soapAction="http://tempuri.org/ListaCargo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCargo">
+      <soap12:operation soapAction="http://tempuri.org/AgregarCargo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCargo">
+      <soap12:operation soapAction="http://tempuri.org/EliminarCargo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarCargo">
+      <soap12:operation soapAction="http://tempuri.org/EditarCargo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDepartamento">
+      <soap12:operation soapAction="http://tempuri.org/ListaDepartamento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarDepartamento">
+      <soap12:operation soapAction="http://tempuri.org/AgregarDepartamento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDepartamento">
+      <soap12:operation soapAction="http://tempuri.org/EliminarDepartamento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarDepartamento">
+      <soap12:operation soapAction="http://tempuri.org/EditarDepartamento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaDtsFamilia">
+      <soap12:operation soapAction="http://tempuri.org/ListaDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarDtsFamilia">
+      <soap12:operation soapAction="http://tempuri.org/AgregarDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarDtsFamilia">
+      <soap12:operation soapAction="http://tempuri.org/EliminarDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarDtsFamilia">
+      <soap12:operation soapAction="http://tempuri.org/EditarDtsFamilia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/ListaEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/AgregarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/EliminarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarEmpleado">
+      <soap12:operation soapAction="http://tempuri.org/EditarEmpleado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerEmpresa">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaEmpresa">
+      <soap12:operation soapAction="http://tempuri.org/ListaEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarEmpresa">
+      <soap12:operation soapAction="http://tempuri.org/AgregarEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarEmpresa">
+      <soap12:operation soapAction="http://tempuri.org/EliminarEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarEmpresa">
+      <soap12:operation soapAction="http://tempuri.org/EditarEmpresa" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerReferencia">
+      <soap12:operation soapAction="http://tempuri.org/ObtenerReferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ListaReferencia">
+      <soap12:operation soapAction="http://tempuri.org/ListaReferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarReferencia">
+      <soap12:operation soapAction="http://tempuri.org/AgregarReferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReferencia">
+      <soap12:operation soapAction="http://tempuri.org/EliminarReferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarReferencia">
+      <soap12:operation soapAction="http://tempuri.org/EditarReferencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AcmeSer">
+    <wsdl:port name="AcmeSerSoap" binding="tns:AcmeSerSoap">
+      <soap:address location="http://localhost:9093/AcmeSer.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AcmeSerSoap12" binding="tns:AcmeSerSoap12">
+      <soap12:address location="http://localhost:9093/AcmeSer.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

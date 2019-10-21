@@ -1,0 +1,7 @@
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\bin\Debug\Capa_Datos.dll.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Datos\obj\Debug\Capa_Datos.pdb

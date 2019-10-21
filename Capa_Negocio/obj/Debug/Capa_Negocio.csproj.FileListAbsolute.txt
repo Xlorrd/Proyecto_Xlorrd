@@ -1,0 +1,10 @@
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\bin\Debug\Capa_Datos.dll.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\obj\Debug\Capa_Negocio.csprojAssemblyReference.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
