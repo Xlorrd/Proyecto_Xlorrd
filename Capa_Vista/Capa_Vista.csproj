@@ -1819,6 +1819,7 @@
     <Content Include="examples\typography.html" />
     <Content Include="examples\upgrade.html" />
     <Content Include="examples\user.html" />
+    <Content Include="github.aspx" />
     <Content Include="Pruebas_Main_Template.aspx" />
     <Content Include="Pruebas_Menu.aspx" />
     <Content Include="Inicio_Template.Master" />
@@ -2070,6 +2071,13 @@
     </Compile>
     <Compile Include="Auntentificar_Usuario.aspx.designer.cs">
       <DependentUpon>Auntentificar_Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="github.aspx.cs">
+      <DependentUpon>github.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="github.aspx.designer.cs">
+      <DependentUpon>github.aspx</DependentUpon>
     </Compile>
     <Compile Include="Inicio_Template.Master.cs">
       <DependentUpon>Inicio_Template.Master</DependentUpon>
