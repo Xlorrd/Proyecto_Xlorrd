@@ -1,0 +1,2 @@
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Template_Para_Proyectos\obj\Debug\Template_Para_Proyectos.csprojAssemblyReference.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Template_Para_Proyectos\obj\Debug\Template_Para_Proyectos.csproj.CoreCompileInputs.cache

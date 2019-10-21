@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ProyectoCitas" Class="Proyecto_CitasDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-MKA0APU\SQl;Initial Catalog=ProyectoCitas;Integrated Security=True" SettingsObjectName="Capa_Datos.Properties.Settings" SettingsPropertyName="ProyectoCitasConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Persona" Member="Persona">
+    <Type Name="Persona">
+      <Column Name="per_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="per_nombres" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="per_apellidos" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="per_cedula" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="per_email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="per_telefono" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="per_fechanacimiento" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="per_genero" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="per_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="per_estado" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="per_fechaCreacion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="per_usuario" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="per_contrasenia" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="id_tipousu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.Mostrar_Persona" Method="Mostrar_Persona">
+    <ElementType Name="Mostrar_PersonaResult">
+      <Column Name="per_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="per_nombres" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="per_apellidos" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="per_cedula" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="per_email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="per_telefono" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="per_fechanacimiento" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="per_genero" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="per_direccion" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="per_estado" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="per_fechaCreacion" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="per_usuario" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="per_contrasenia" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="id_tipousu" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Migrar_datos_persona" Method="Migrar_datos_persona">
+    <ElementType Name="Migrar_datos_personaResult">
+      <Column Name="Nombres" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellidos" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Cédula" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Mail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Dirección" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

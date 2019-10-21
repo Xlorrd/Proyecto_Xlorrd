@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main_Template.Master" AutoEventWireup="true" CodeBehind="Menu.master.cs" Inherits="Capa_Vista.Menu" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Cp_Titulo_Proyecto" runat="server">
+Mi pagina
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Cp_Contenido_Menu" runat="server">
+
+
+          <li class="active ">
+            <a href="./Actualizar_Persona.aspx">
+              <i class="tim-icons icon-single-02"></i>
+              <p>Perfil de usuario</p>
+            </a>
+          </li>         
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="Cp_Logo_Proyecto" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="Cp_Menu_Perfil" runat="server">
+        
+                      
+        
+                <li class="dropdown nav-item">
+                                
+                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                 
+                  <div class="photo">
+                    <img src="../assets/img/anime3.png" alt="Profile Photo">
+                  </div>
+                  <b class="caret d-none d-lg-block d-xl-block"></b>
+                  <p class="d-lg-none">
+                  Opciones
+                  </p>
+                </a>
+                <ul class="dropdown-menu dropdown-navbar">
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
+                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
+                  <li class="dropdown-divider"></li>                 
+                   
+                </ul>
+              </li>
+
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="Cp_Contenido" runat="server">
+    <form id="contenido" runat="server">
+     <asp:ContentPlaceHolder ID="Cp_Contenido" runat="server">
+            <%-- Conenido del menu --%>            
+        </asp:ContentPlaceHolder>
+       </form>
+</asp:Content>
