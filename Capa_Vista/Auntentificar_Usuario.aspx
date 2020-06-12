@@ -1,4 +1,4 @@
-﻿    <%@ Page Title="" Language="C#" MasterPageFile="~/Inicio_Template.Master" AutoEventWireup="true" CodeBehind="Auntentificar_Usuario.aspx.cs" Inherits="Capa_Vista.Auntentificar_Usuario" %>
+﻿  <%@ Page Title="" Language="C#" MasterPageFile="~/Inicio_Template.Master" AutoEventWireup="true" CodeBehind="Auntentificar_Usuario.aspx.cs" Inherits="Capa_Vista.Auntentificar_Usuario" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="cph_registro" runat="server">
        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager> <asp:UpdatePanel ID="UpdatePanel1" runat="server">   
           <ContentTemplate>

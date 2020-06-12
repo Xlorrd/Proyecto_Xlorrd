@@ -168,173 +168,460 @@ C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_V
 C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Vista\obj\Debug\Capa_Vista.csproj.CopyComplete
 C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Vista\obj\Debug\Capa_Vista.dll
 C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Template_Para_Proyectos\Capa_Vista\obj\Debug\Capa_Vista.pdb
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\msvcr120.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\msvcr120.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll.config
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.pdb
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe.config
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.rsp
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe.config
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.rsp
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.AppContext.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Console.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Http.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.ValueTuple.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe.config
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.rsp
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Common.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Design.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebDesign.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebForms.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.SqlServer.Types.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.DataVisualization.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\EnvDTE.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WinForms.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.Build.Framework.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\stdole.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.OLE.Interop.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.VSHelp.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.ProjectAggregator.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.ComponentModelHost.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\EnvDTE80.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.Build.Tasks.Core.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Data.Services.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\VSLangProj.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Data.Core.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\VSLangProj80.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Newtonsoft.Json.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\System.Threading.Tasks.Dataflow.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.GraphModel.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.MSXML.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.Build.Utilities.Core.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\VSLangProj2.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.pdb
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll.config
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.pdb
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csprojAssemblyReference.cache
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CoreCompileInputs.cache
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CopyComplete
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.dll
-C:\Users\Xlorrd\Documents\GitHub\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.rsp
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.rsp
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.AppContext.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Console.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Http.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.ValueTuple.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.rsp
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.SqlServer.Types.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\EnvDTE.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.Build.Framework.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\stdole.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\EnvDTE80.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.Build.Tasks.Core.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\VSLangProj.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\VSLangProj80.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Newtonsoft.Json.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.MSXML.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.Build.Utilities.Core.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\VSLangProj2.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll.config
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.pdb
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csprojAssemblyReference.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CoreCompileInputs.cache
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CopyComplete
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.dll
+C:\Users\Xlorrd\Documents\Mega\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.pdb
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll.config
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.pdb
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe.config
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.rsp
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe.config
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.rsp
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.AppContext.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Console.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Http.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Sockets.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.ValueTuple.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe.config
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.rsp
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.SqlServer.Types.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\EnvDTE.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\stdole.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.MSXML.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.pdb
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll.config
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.pdb
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csprojAssemblyReference.cache
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CopyComplete
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.dll
+C:\Users\alxsi\Documents\MEGAsync\Mis ejerciocios\C#\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.pdb
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll.config
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Vista.pdb
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.exe.config
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csc.rsp
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.exe.config
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\csi.rsp
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.AppContext.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Console.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Http.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Net.Sockets.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.ValueTuple.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.exe.config
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\vbc.rsp
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.SqlServer.Types.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\EnvDTE.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\stdole.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.MSXML.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.pdb
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Datos.dll.config
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Capa_Negocio.pdb
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csprojAssemblyReference.cache
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CoreCompileInputs.cache
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.csproj.CopyComplete
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.dll
+C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Vista\obj\Debug\Capa_Vista.pdb

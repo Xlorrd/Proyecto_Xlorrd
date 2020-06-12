@@ -23,7 +23,7 @@ namespace Capa_Vista
                 }
                 else
                 {
-                    Response.Redirect("~/Auntentificar_Usuario.aspx");
+                    //Response.Redirect("~/Auntentificar_Usuario.aspx");
                 }
 
             }

@@ -2,7 +2,9 @@
 using Capa_Negocio;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace Capa_Vista
 {
@@ -13,11 +15,11 @@ namespace Capa_Vista
         {
             if (!IsPostBack)
             {
-                //Obtener_Datos_Persona();
+                   //Obtener_Datos_Persona();
                 Obtener_Datos_Persona_Usuario();
             }
         }
-
+        #region Datos Persona
         public void Obtener_Datos_Persona()
         {
             int usu_id = Convert.ToInt32(Session["ID_Usuario"]);
@@ -36,6 +38,7 @@ namespace Capa_Vista
                     a.Cédula = item.Cédula;
                     a.Mail = item.Mail;
                     a.Fch_Nacimiento = item.Fch_Nacimiento;
+                    a.per_imagen = item.per_imagen;
                     data.Add(a);
 
 
@@ -43,9 +46,12 @@ namespace Capa_Vista
                     txt_nombre.Text = data[0].Nombre;
                     txt_apellido.Text = data[0].Apellido;
                     txt_direccion.Text = data[0].Dirección;
-                    txt_cedula.Text  = Convert.ToString(data[0].Cédula);
+                    txt_cedula.Text = Convert.ToString(data[0].Cédula);
                     txt_correo.Text = data[0].Mail;
                     txt_fch_nacimiento.Text = data[0].Fch_Nacimiento;
+
+
+
                 }
 
 
@@ -59,6 +65,8 @@ namespace Capa_Vista
 
         }
 
+        #endregion
+
         private void Obtener_Datos_Persona_Usuario()
         {
             int usu_id = Convert.ToInt32(Session["ID_Usuario"]);
@@ -71,7 +79,8 @@ namespace Capa_Vista
                 txt_direccion.Text = rs[0].Dirección;
                 txt_cedula.Text = Convert.ToString(rs[0].Cédula);
                 txt_correo.Text = rs[0].Mail;
-                txt_fch_nacimiento.Text = rs[0].Fch_Nacimiento;
+                txt_fch_nacimiento.Text = rs[0].Fch_Nacimiento;                
+                //img_persona.ImageUrl = rs[0].Imagen;
             }
 
         }
@@ -90,12 +99,13 @@ namespace Capa_Vista
             data.per_apellido = txt_apellido.Text;
             data.per_cedula =Convert.ToInt32(txt_cedula.Text);
             data.per_correo = txt_correo.Text;
-            data.per_fch_nacimiento =Convert.ToDateTime("2019-10-30");
+            data.per_fch_nacimiento =Convert.ToDateTime(txt_fch_nacimiento.Text);
             data.per_direccion = txt_direccion.Text;
+            //data.per_imagen =File_imagen.FileBytes;
 
             Logica_Tbl_Persona.Actualizar_Persona(data,per_id);
-                  Response.Redirect("~/Actualizar_Persona.aspx");
-            }
+            Response.Redirect("~/Actualizar_Persona.aspx");
+        }
         //    catch (Exception)
         //    {
         //        btn_guardar.Attributes.Add("onclick", "demo.showNotification('top','center');");
@@ -103,6 +113,24 @@ namespace Capa_Vista
           
        
         //}
+        private void Guardar_Persona()
+        {
+            Tbl_Persona data = new Tbl_Persona();
+            //string per_nombre = Label1.Text;
+
+           data.per_nombre = txt_nombre.Text;
+           data.per_apellido = txt_apellido.Text;
+           data.per_cedula = Convert.ToInt32(txt_cedula.Text);
+           data.per_correo = txt_correo.Text;
+           data.per_fch_nacimiento = Convert.ToDateTime(txt_fch_nacimiento.Text);
+           data.per_direccion = txt_direccion.Text;
+           //data.per_imagen = File_imagen.FileBytes;
+
+           
+
+            Logica_Tbl_Persona.save(data);
+            
+        }
         protected void btn_guardar_Click(object sender, EventArgs e)
         {
 
@@ -111,6 +139,13 @@ namespace Capa_Vista
             Actualizar_Datos_Persona_Usuario();
             //btn_guardar.Attributes.Add("onclick", "demo.showNotification('top','center');");
 
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+           
+            Guardar_Persona();
+           
         }
     }
 }

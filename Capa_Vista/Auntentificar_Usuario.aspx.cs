@@ -9,46 +9,70 @@ namespace Capa_Vista
         int contador = 1;
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session["con"] = Session["ConAntiguo"];
         }
 
         protected void btn_ingresar_Click(object sender, EventArgs e)
         {
-            Ingresar();
+            Validar_Usuario();
+
+            //Verificar_Usuario();
+
+
         }
-        public void Ingresar()
+
+        public void Verificar_Usuario()
+        {
+            string per_nombre = txt_usuario.Text;
+          var rs=  Logica_Tbl_Usuario.Verificar_Usuario(per_nombre," ");
+            
+            
+            intento.Text = rs;
+            //if (rs)
+            //{
+
+            //}
+
+          
+
+
+        }
+        public void bloquear_persona()
+        {
+            string per_nombre = txt_usuario.Text;
+            Logica_Tbl_Usuario.bloquear_usuario(per_nombre);
+            intento.Text = "La cuenta ha sido desactivada";
+        }
+        public void Validar_Usuario()
         {
 
-            //  lblMensaje.Visible = false;
-            if (string.IsNullOrEmpty(txt_usuario.Text))
+            if (string.IsNullOrEmpty(txt_usuario.Text) || string.IsNullOrEmpty(txt_contra.Text))
+            
             {
                 intento.Text = (contador + (Convert.ToInt32(Session["con"]))).ToString();
                 Session["ConAntiguo"] = intento.Text.ToString();
                 if (Convert.ToInt32(intento.Text) == 3)
                 {
+                    bloquear_persona();
                     btn_ingresar.Enabled = false;
                     Session["con"] = null;
                     Session["ConAntiguo"] = null;
                 }
+            }
+
+            //  lblMensaje.Visible = false;
+            if (string.IsNullOrEmpty(txt_usuario.Text))
+            {               
                 // lblMensaje.Visible = true;
 
                 txt_usuario.Attributes.Add("placeholder", "Escribe un usuario");
                 // txt_usu.BorderColor=System.Drawing.Color.FromArgb(255,0,0) ;
-                // txt_usu.BorderStyle = BorderStyle.Solid;
+                // txt_usu.BorderStyle = BorderStyle.Solid;      
                 return;
             }
 
             if (string.IsNullOrEmpty(txt_contra.Text))
-            {
-                intento.Text = (contador + (Convert.ToInt32(Session["con"]))).ToString();
-                Session["ConAntiguo"] = intento.Text.ToString();
-                if (Convert.ToInt32(intento.Text) == 3)
-                {
-                    btn_ingresar.Enabled = false;
-                    Session["con"] = null;
-                    Session["ConAntiguo"] = null;
-                }
-
+            {               
                 //  lblMensaje.Visible = true;
                 txt_contra.Attributes.Add("placeholder", "Ingrese  una clave");
                 return;
@@ -96,7 +120,17 @@ namespace Capa_Vista
                 {
                     //  lblMensaje.Visible = true;
                     txt_contra.Attributes.Add("placeholder", "Contraseña o usuario incorrecto");
+                    intento.Text = (contador + (Convert.ToInt32(Session["con"]))).ToString();
+                    Session["ConAntiguo"] = intento.Text.ToString();
+                    if (Convert.ToInt32(intento.Text) == 3)
+                    {
+                        bloquear_persona();
+                        btn_ingresar.Enabled = false;
+                        Session["con"] = null;
+                        Session["ConAntiguo"] = null;
+                    }
                     return;
+                   
                 }
 
             }

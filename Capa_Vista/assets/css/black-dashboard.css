@@ -14901,7 +14901,7 @@ img {
 
 .modal.modal-default .modal-content {
   background-color: #ffffff;
-  color: #222a42;
+  color: #222a42 ;
 }
 
 .modal.modal-default .modal-body p {
@@ -15193,7 +15193,7 @@ img {
 .modal.modal-danger .form-control::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.4);
   opacity: 1;
-  filter: alpha(opacity=100);?
+  filter: alpha(opacity=100);
 }
 
 .modal.modal-danger .form-control:-ms-input-placeholder {

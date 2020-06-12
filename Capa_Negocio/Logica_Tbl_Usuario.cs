@@ -16,6 +16,12 @@ namespace Capa_Negocio
             return nlogin;
         }
 
+
+        public static  string Verificar_Usuario(string nombre_usuario, string mensaje)
+        {
+            var ver_user = dc.sp_verificar_persona(ref mensaje,nombre_usuario);
+          return mensaje;
+        }
         public static bool Autentificar(string nombre, String pass)
         {
             var auto = dc.Tbl_Usuario.Any(usu => usu.usu_estado == "A" & usu.usu_nombre.Equals(nombre)
@@ -30,7 +36,22 @@ namespace Capa_Negocio
               
             return dta.ToList();
         }
+        public static void bloquear_usuario(string usu_nombre)
+        {
+            try
+            {
+                dc.sp_bloquear_persona(usu_nombre);
+            }
+            catch (Exception)
+            {
 
+                throw;
+            }
+
+        }
+
+
+       
 
     }
 }

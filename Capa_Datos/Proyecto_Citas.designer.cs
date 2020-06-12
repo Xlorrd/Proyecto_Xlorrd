@@ -36,7 +36,7 @@ namespace Capa_Datos
     #endregion
 		
 		public Proyecto_CitasDataContext() : 
-				base(global::Capa_Datos.Properties.Settings.Default.ProyectoCitasConnectionString, mappingSource)
+				base(global::Capa_Datos.Properties.Settings.Default.ProyectoCitasConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}
@@ -73,18 +73,18 @@ namespace Capa_Datos
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Mostrar_Persona")]
-		public ISingleResult<Mostrar_PersonaResult> Mostrar_Persona()
-		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())));
-			return ((ISingleResult<Mostrar_PersonaResult>)(result.ReturnValue));
-		}
-		
 		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Migrar_datos_persona")]
 		public ISingleResult<Migrar_datos_personaResult> Migrar_datos_persona()
 		{
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())));
 			return ((ISingleResult<Migrar_datos_personaResult>)(result.ReturnValue));
+		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.Mostrar_Persona")]
+		public ISingleResult<Mostrar_PersonaResult> Mostrar_Persona()
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())));
+			return ((ISingleResult<Mostrar_PersonaResult>)(result.ReturnValue));
 		}
 	}
 	
@@ -462,6 +462,104 @@ namespace Capa_Datos
 		}
 	}
 	
+	public partial class Migrar_datos_personaResult
+	{
+		
+		private string _Nombres;
+		
+		private string _Apellidos;
+		
+		private System.Nullable<int> _Cédula;
+		
+		private string _Mail;
+		
+		private string _Dirección;
+		
+		public Migrar_datos_personaResult()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Nombres", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string Nombres
+		{
+			get
+			{
+				return this._Nombres;
+			}
+			set
+			{
+				if ((this._Nombres != value))
+				{
+					this._Nombres = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Apellidos", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
+		public string Apellidos
+		{
+			get
+			{
+				return this._Apellidos;
+			}
+			set
+			{
+				if ((this._Apellidos != value))
+				{
+					this._Apellidos = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Cédula", DbType="Int")]
+		public System.Nullable<int> Cédula
+		{
+			get
+			{
+				return this._Cédula;
+			}
+			set
+			{
+				if ((this._Cédula != value))
+				{
+					this._Cédula = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Mail", DbType="VarChar(50)")]
+		public string Mail
+		{
+			get
+			{
+				return this._Mail;
+			}
+			set
+			{
+				if ((this._Mail != value))
+				{
+					this._Mail = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Dirección", DbType="VarChar(100)")]
+		public string Dirección
+		{
+			get
+			{
+				return this._Dirección;
+			}
+			set
+			{
+				if ((this._Dirección != value))
+				{
+					this._Dirección = value;
+				}
+			}
+		}
+	}
+	
 	public partial class Mostrar_PersonaResult
 	{
 		
@@ -717,104 +815,6 @@ namespace Capa_Datos
 				if ((this._id_tipousu != value))
 				{
 					this._id_tipousu = value;
-				}
-			}
-		}
-	}
-	
-	public partial class Migrar_datos_personaResult
-	{
-		
-		private string _Nombres;
-		
-		private string _Apellidos;
-		
-		private System.Nullable<int> _Cédula;
-		
-		private string _Mail;
-		
-		private string _Dirección;
-		
-		public Migrar_datos_personaResult()
-		{
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Nombres", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
-		public string Nombres
-		{
-			get
-			{
-				return this._Nombres;
-			}
-			set
-			{
-				if ((this._Nombres != value))
-				{
-					this._Nombres = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Apellidos", DbType="VarChar(50) NOT NULL", CanBeNull=false)]
-		public string Apellidos
-		{
-			get
-			{
-				return this._Apellidos;
-			}
-			set
-			{
-				if ((this._Apellidos != value))
-				{
-					this._Apellidos = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Cédula", DbType="Int")]
-		public System.Nullable<int> Cédula
-		{
-			get
-			{
-				return this._Cédula;
-			}
-			set
-			{
-				if ((this._Cédula != value))
-				{
-					this._Cédula = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Mail", DbType="VarChar(50)")]
-		public string Mail
-		{
-			get
-			{
-				return this._Mail;
-			}
-			set
-			{
-				if ((this._Mail != value))
-				{
-					this._Mail = value;
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Dirección", DbType="VarChar(100)")]
-		public string Dirección
-		{
-			get
-			{
-				return this._Dirección;
-			}
-			set
-			{
-				if ((this._Dirección != value))
-				{
-					this._Dirección = value;
 				}
 			}
 		}

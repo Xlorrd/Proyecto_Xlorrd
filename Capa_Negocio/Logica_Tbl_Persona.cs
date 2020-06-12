@@ -8,8 +8,8 @@ namespace Capa_Negocio
 
     public class Logica_Tbl_Persona
     {
-
-        public static ProyectoXDataContext dc = new ProyectoXDataContext();
+        
+        public static  ProyectoXDataContext dc = new ProyectoXDataContext();
 
         public static List<sp_buscar_persona_idResult> Buscar_Persona_Id(int per_id)
         {
@@ -33,6 +33,7 @@ namespace Capa_Negocio
                 a.Cédula = item.Cédula;
                 a.Mail = item.Mail;
                 a.Fch_Nacimiento = item.Fch_Nacimiento;
+                
                 data.Add(a);
 
 
@@ -42,19 +43,21 @@ namespace Capa_Negocio
             return data;
         }
 
-        public static void Guardar_Persona(Tbl_Persona tp)
+        public static void Guardar_Persona(Tbl_Persona tp, string mensaje)
         {
 
             try
             {
-                dc.sp_insertar_persona(tp.per_nombre, tp.per_apellido, tp.per_cedula, tp.per_correo, tp.per_fch_nacimiento, tp.per_direccion, tp.per_fch_creacion, tp.per_estado);
-
-                dc.SubmitChanges();
+             var insert= dc.sp_insertar_persona(tp.per_nombre, tp.per_apellido, tp.per_cedula, tp.per_correo, tp.per_fch_nacimiento, tp.per_direccion, tp.per_fch_creacion,tp.per_imagen, tp.per_estado,ref mensaje);
+              
+           
+           
             }
             catch (Exception ex)
             {
                 throw new System.ArgumentException("los datos no han sido guardados <br/>" + ex.Message);
             }
+           
 
         }
 
@@ -62,7 +65,7 @@ namespace Capa_Negocio
         {
             try
             {
-                dc.sp_actualizar_persona(per_id, tp.per_nombre, tp.per_apellido, tp.per_cedula, tp.per_correo,tp.per_fch_nacimiento, tp.per_direccion,tp.per_fch_creacion, tp.per_estado);
+                dc.sp_actualizar_persona(per_id, tp.per_nombre, tp.per_apellido, tp.per_cedula, tp.per_correo,tp.per_fch_nacimiento, tp.per_direccion,tp.per_fch_creacion, tp.per_imagen, tp.per_estado);
             }
             catch (Exception)
             {
@@ -70,6 +73,22 @@ namespace Capa_Negocio
                 throw;
             }
         }
+        public static void save(Tbl_Persona tip)
+        {
+            try
+            {
+
+                dc.Tbl_Persona.InsertOnSubmit(tip);
+                dc.SubmitChanges();
+
+
+            }
+            catch (Exception ex)
+            {
+                throw new ArgumentException("los datos no han sido guardados <br/>" + ex.Message);
+            }
+        }
+
     }
 }
 
