@@ -90,7 +90,7 @@ namespace Capa_Vista
                     if (tipousuario == 1)
                     {
                         Session["New"] = txt_usuario.Text;
-                        Response.Redirect("~/Pruebas_Menu.aspx");
+                        Response.Redirect("~/Home.aspx");
 
                     }
                     if (tipousuario == 2)

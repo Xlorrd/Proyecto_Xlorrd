@@ -10,10 +10,10 @@ namespace Capa_Vista
     public partial class Pruebas_Menu : System.Web.UI.Page
     {
         private SerialPort puerto = new SerialPort();
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Page_Load (object sender, EventArgs e)
         {
-            //mostra_grid();
-            arduino();
+            mostra_grid();
+          //  arduino();
 
 
         }
@@ -134,6 +134,11 @@ namespace Capa_Vista
                 Timer1.Enabled = false;
 
             }
+
+        }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

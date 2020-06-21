@@ -37,3 +37,13 @@ C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Negocio\obj\Deb
 C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
 C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.dll
 C:\Users\alxsi\Documents\MEGAsync Downloads\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\bin\Debug\Capa_Datos.dll.config
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.csprojAssemblyReference.cache
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CoreCompileInputs.cache
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.csproj.CopyComplete
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\alxsi\Source\Repos\Xlorrd\Proyecto_Xlorrd\Capa_Negocio\obj\Debug\Capa_Negocio.pdb
